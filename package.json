@@ -1,22 +1,11 @@
 {
     "name": "root",
     "private": true,
-    "scripts": {
-        "build": "webpack",
-        "dev": "webpack-dev-server"
-    },
     "devDependencies": {
-        "lerna": "^3.22.1",
-        "webpack": "^5.11.1",
-        "webpack-cli": "^4.3.1",
-        "webpack-dev-server": "^3.11.1"
+        "lerna": "^3.22.1"
     },
     "packages": [
         "packages/*"
     ],
-    "version": "0.0.0",
-    "dependencies": {
-        "pack-a": "file:packages/pack-a",
-        "pack-b": "file:packages/pack-b"
-    }
+    "version": "0.0.1"
 }
