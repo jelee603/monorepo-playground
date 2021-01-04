@@ -14,5 +14,9 @@
     "packages": [
         "packages/*"
     ],
-    "version": "0.0.0"
+    "version": "0.0.0",
+    "dependencies": {
+        "pack-a": "file:packages/pack-a",
+        "pack-b": "file:packages/pack-b"
+    }
 }
