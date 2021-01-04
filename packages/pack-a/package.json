@@ -1,0 +1,14 @@
+{
+    "name": "pack-a",
+    "main": "./dist/grid.js",
+    "scripts": {
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "webpack": "^4.29.0",
+        "webpack-cli": "^3.2.1"
+    },
+    "dependencies": {
+        "tui-grid": "^4.16.1"
+    }
+}

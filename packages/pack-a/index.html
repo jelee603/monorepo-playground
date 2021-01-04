@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head></head>
+
+<body>
+    <div id="grid" width="400" height="400"></div>
+    <script src="./dist/grid.js"></script>
+    <script>
+        const instance = new Grid({
+            el: document.getElementById('grid'), // Container element
+            columns: [{
+                header: 'Name',
+                name: 'name',
+            }, {
+                header: 'Artist',
+                name: 'artist',
+            }, {
+                header: 'Release',
+                name: 'release',
+            }, {
+                header: 'Genre',
+                name: 'genre',
+            }, ],
+            data: [{
+                name: 'Beautiful Lies',
+                artist: 'Birdy',
+                release: '2016.03.26',
+                genre: 'Pop',
+            }, ],
+        });
+
+        Grid.applyTheme('striped'); // Call API of static method
+    </script>
+</body>
+
+</html>
