@@ -30,13 +30,13 @@ $ lerna link convert
 $ lerna bootstrap
 ```
 
-각 패키지들의 npm 명령어를 실행합니다.
+각 패키지들의 npm 명령어를 실행해준다.
 
 ```
 $ leran run build
 ```
 
-각 페이지 URL
+Project URL
 
-http://127.0.0.1:5500/packages/pack-a/index.html
-http://127.0.0.1:5500/packages/pack-b/index.html
+- http://127.0.0.1:5500/packages/pack-a/index.html
+- http://127.0.0.1:5500/packages/pack-b/index.html
